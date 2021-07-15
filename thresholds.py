@@ -1,6 +1,9 @@
 # import libaries.
 import cv2 as cv
 
+# thresholds definition.
+# https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html
+
 # read image.
 img = cv.imread('photos/belle.jpg')
 cv.imshow('Belle', img)
