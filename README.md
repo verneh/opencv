@@ -15,3 +15,7 @@ Blur and contours through [contours.py](https://github.com/verneh/opencv/blob/ma
 Comparison between canny edges, dilate, and erode.
 
 ![Example Canny](https://github.com/verneh/opencv/blob/main/images/canny.png)
+
+Rotations in [rotations.py](https://github.com/verneh/opencv/blob/main/transformations.py)
+
+![Rotations](https://github.com/verneh/opencv/blob/main/images/rotation.png)
