@@ -39,4 +39,14 @@ print(f'{len(contours)} contour(s) found!')
 cv.drawContours(blank, contours, -1, (0,0,255), 1)
 cv.imshow('Contours Drawn', blank)
 
+# resize image
+# resized = cv.resize(img, (400, 400), interpolation=cv.INTER_AREA)
+# you can use cv.INTER_CUBIC and it will give you a better quality image
+# compared to INTER_AREA.
+# cv.imshow('Resized', resized)
+
+# crop image. images are similar to array and this is similar to array slicing.
+# cropped = img[50:200, 200:400]
+# cv.imshow('Cropped', cropped)
+
 cv.waitKey(0)
