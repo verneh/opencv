@@ -23,3 +23,6 @@ Rotations in [rotations.py](https://github.com/verneh/opencv/blob/main/transform
 Split image into RGB [splitimage.py](https://github.com/verneh/opencv/blob/main/splitimage.py)
 
 ![Split Image](https://github.com/verneh/opencv/blob/main/images/splitimage.png)
+
+Gradients! [gradients.py](https://github.com/verneh/opencv/blob/main/gradients.py)
+![Gradients](https://github.com/verneh/opencv/blob/main/images/gradients.png)
