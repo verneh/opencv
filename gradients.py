@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('/home/verne/Documents/photos/belle.jpg')
+img = cv.imread('photos/belle.jpg')
 cv.imshow('Belle', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
@@ -20,7 +20,7 @@ sobelx = cv.Sobel(gray, cv.CV_64F, 1, 0)
 sobely = cv.Sobel(gray, cv.CV_64F, 0, 1)
 combined_sobel = cv.bitwise_or(sobelx, sobely)
 
-#Scharr
+# Scharr
 scharrx = cv.Scharr(gray, cv.CV_64F, 1, 0)
 scharry = cv.Scharr(gray, cv.CV_64F, 0, 1)
 combined_scharr = cv.bitwise_or(scharrx, scharry)
@@ -28,6 +28,8 @@ combined_scharr = cv.bitwise_or(scharrx, scharry)
 cv.imshow('Sobel X', sobelx)
 cv.imshow('Sobel Y', sobely)
 cv.imshow('Combined Sobel', combined_sobel)
+
+# Scharr is slightly darker.
 cv.imshow('Scharr X', scharrx)
 cv.imshow('Scharr Y', scharry)
 cv.imshow('Combined Scharr', combined_sobel)
