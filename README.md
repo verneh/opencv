@@ -19,3 +19,7 @@ Comparison between canny edges, dilate, and erode.
 Rotations in [rotations.py](https://github.com/verneh/opencv/blob/main/transformations.py)
 
 ![Rotations](https://github.com/verneh/opencv/blob/main/images/rotation.png)
+
+Split image into RGB [splitimage.py](https://github.com/verneh/opencv/blob/main/splitimage.py)
+
+![Split Image](https://github.com/verneh/opencv/blob/main/images/splitimage.png)
