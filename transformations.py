@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('/home/verne/Documents/photos/belle.jpg')
+img = cv.imread('photos/belle.jpg')
 cv.imshow('Belle', img)
 
 # Translation
