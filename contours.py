@@ -18,9 +18,17 @@ cv.imshow('Blur', blur)
 
 # https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 # multistage edge detection algorithm in order to get the strong edges of the image.
-# dilate an image   
+# edge cascade   
 canny = cv.Canny(blur, 125, 175)
 cv.imshow('Canny Edges', canny)
+
+# dilate the image
+dilated = cv.dilate(canny, (7,7), iterations=3)
+cv.imshow('Dilated', dilated)
+
+# erode the image.
+eroded = cv.erode(dilated, (7,7), iterations=3)
+cv.imshow('Eroded', eroded)
 
 # ret, thresh = cv.threshold(gray, 125, 255, cv.THRESH_BINARY)
 # cv.imshow('Thresh', thresh)
