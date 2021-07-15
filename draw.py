@@ -25,8 +25,7 @@ cv.imshow('Rectangle', blank)
 # draw a circle.
 cv.circle(blank, (blank.shape[1]//2, blank.shape[0]//2), 40, (0,0,255), thickness=2)
 cv.imshow('Circle', blank)
-print(blank.shape[1]//2, blank.shape[0]//2)
-
+ 
 # draw a line.
 cv.line(blank, (100,100), (250,210), (255,255,255), thickness=2)
 cv.imshow('Line', blank)
