@@ -1,7 +1,7 @@
 
 import cv2 as cv
 
-img = cv.imread('/home/verne/Documents/photos/gabe.jpg')
+img = cv.imread('photos/gabe.jpg')
 # cv.imshow('Gabe', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
@@ -9,7 +9,7 @@ gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 # Haar cascades looks at the edges to determine the image.
 # parse the xml file.
-haar_cascade = cv.CascadeClassifier('/home/verne/Documents/opencv/haar_face.xml')
+haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
 # Once the value hits seven for minneighbors, instead of having two boxes
 # we only get one box which highlights part of Gabe's face.
