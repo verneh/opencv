@@ -25,4 +25,9 @@ Split image into RGB [splitimage.py](https://github.com/verneh/opencv/blob/main/
 ![Split Image](https://github.com/verneh/opencv/blob/main/images/splitimage.png)
 
 Gradients! [gradients.py](https://github.com/verneh/opencv/blob/main/gradients.py)
+
 ![Gradients](https://github.com/verneh/opencv/blob/main/images/gradients.png)
+
+Haar Cascades with Gabe! [face_detect.py](https://github.com/verneh/opencv/blob/main/face_detect.py)
+
+![Haar with Gabe](https://github.com/verneh/opencv/blob/main/images/haar_gabe.png)
