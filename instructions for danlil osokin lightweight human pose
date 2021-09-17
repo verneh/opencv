@@ -1,0 +1,20 @@
+Installation instructions for 20.04
+
+Follow along this tutorial.
+https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch
+
+Install python, cmake, opencv in system.
+
+create virtualenv. (python3 -m virtualenv lightweight-human-pose-estimation-3d-demo.pytorch
+source lightweight-human-pose-estimation-3d-demo.pytorch/bin/activate)
+
+grab the pretrained model.
+
+to be able to run the demo (demo.py). go to the website below first
+https://pytorch.org/get-started/locally/
+
+and then select stable (1.9), linux, pip, python and cuda 11.1. run the command through pip.
+
+Run demo.py again and it should work.
+
+Note: if you cannot get nvidia-smi to run, there is a need to disable secure boot on BIOS.
