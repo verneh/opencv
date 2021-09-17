@@ -3,7 +3,8 @@ Installation instructions for 20.04
 Follow along this tutorial.
 https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch
 
-Install python, cmake, opencv in system.
+Install python, cmake, opencv in system. also the part where you install vim for profile. 
+https://linuxways.net/ubuntu/how-to-install-cuda-on-ubuntu-20-04/
 
 create virtualenv. (python3 -m virtualenv lightweight-human-pose-estimation-3d-demo.pytorch
 source lightweight-human-pose-estimation-3d-demo.pytorch/bin/activate)
